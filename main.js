@@ -1,6 +1,6 @@
-$(document)ready(function(){
-$("fa-angle-right").click(function(){
-  $("images > first").next();
+$(document).ready(function(){
+$("next").click(function(){
+  $(".slider-wrapper img.active").removeClass("active");
 });
 
 
